@@ -9,7 +9,7 @@ echo "<p>" . date('h:i:s') . "</p>" . "\n";
 // sleep for 10 seconds
 $delay_sec = getenv('DELAY_SEC');
 // sleep(delay_sec);
-sleep(10);
+sleep(delay_sec);
 // wake up !
 echo "<p>" . date('h:i:s') . "</p>" . "\n";
 ?>
